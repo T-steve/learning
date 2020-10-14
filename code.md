@@ -1,9 +1,9 @@
 # 可以通用
-"""py
+```py
 print(123)
-"""
+```
 
-
+```
 class TfIdfHandler(BaseEstimator, TransformerMixin):
     """
     cut text using nlp api
@@ -32,3 +32,4 @@ class TfIdfHandler(BaseEstimator, TransformerMixin):
         tfidf_train_features = tfidf_transform(self.uuid, data_origin)
         logger.info('cut text to words successfully')
         return tfidf_train_features
+```
