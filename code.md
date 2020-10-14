@@ -1,3 +1,5 @@
+# 可以通用
+
 class TfIdfHandler(BaseEstimator, TransformerMixin):
     """
     cut text using nlp api
